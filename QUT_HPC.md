@@ -22,3 +22,7 @@ qstat -f <job_id>[<specific_number>].aqua
 ```bash
 qstat -t <job_id>[].aqua
 ```
+## Requested resourses
+```bash
+qjobs -x <job_id>[].aqua
+```
