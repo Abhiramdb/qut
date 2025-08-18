@@ -15,6 +15,12 @@ watch qstat
 qstat -q
 ```
 # QSUB-- ARRAY JOBS
+
+## Submitting array job 
+```bash
+qsub array_job_script.sh 
+```
+
 ## Status of array job --in detail
 ```bash
 qstat -f <job_id>[].aqua
