@@ -1,4 +1,10 @@
 # QSUB
+
+## To submit job
+```bash
+qsub job_script.sh
+```
+
 ## To watch your own jobs in real-time using qstat
 ```bash
 watch qstat
