@@ -20,3 +20,22 @@ awk 'NR>1 {
 This will create the file formatted_fr_liftover_eur.snplist in the correct 4-column BED-like format for UCSC LiftOver.
 
 Next step: upload formatted_fr_liftover_eur.snplist to the UCSC LiftOver tool
+
+## Command line UCSC
+Download the software from the UCSC
+
+```bash
+chmod +x liftOver
+```
+Run liftOver:
+```bash
+./liftOver
+```
+Download the chain file:
+```bash
+wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/hg38ToHg19.over.chain.gz
+```
+Perform the conversion:
+```bash
+./liftOver formatted_fr_liftover_eur.snplist hg19ToHg38.over.chain.gz conversions.bed unMapped
+```
