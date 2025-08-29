@@ -17,3 +17,8 @@ tar xzf homo_sapiens_vep_114_GRCh38.tar.gz
 ```bash
 mv homo_sapiens ~/.vep
 ```
+## To use
+```bash
+conda activate annotation_vep
+vep --help
+```
