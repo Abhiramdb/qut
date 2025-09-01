@@ -49,14 +49,14 @@ The input file must be in the following **tab-delimited** format:
 
 ```bash
 head snps_ensembl.txt
-1       10138   10138   T/C
-1       10138   10138   T/G
+1       10100  10100   T/C
+1       10101   10101   T/G
 ```
 If instead your input looks like this:
 ```
 head snps_only.txt
-chr1:10138:T:C
-chr1:10138:T:G
+chr1:10100:T:C
+chr1:10101:T:G
 ```
 You can convert it using:
 ```bash
