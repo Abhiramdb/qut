@@ -3,7 +3,7 @@
 
 This guide explains how to pull a Docker image from Docker Hub, push it to Google Cloud Artifact Registry, and make it publicly available for analysis.
 
-## Set Up Google Cloud Project
+# 1. Set Up Google Cloud Project
 
 1. Open a Gmail account (other than @researchallofus.org) linked to a credit card for Google Cloud.
 2. Create a new project or use an existing one.
