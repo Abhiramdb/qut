@@ -31,7 +31,7 @@ docker pull zijingliu/ldsc
 docker tag zijingliu/ldsc gcr.io/adb-allofus-tools/ldsc:latest
 
 # Push the Docker image to Artifact Registry
-docker push gcr.io/adb-allofus-tools/ldsc:latest
+docker push gcr.io/<projectID>/ldsc:latest
 ```
 # 4. Make the Image Public
 
@@ -49,5 +49,5 @@ docker push gcr.io/adb-allofus-tools/ldsc:latest
 Once the image is pushed and public, you can reference it in your analysis:
 ```bash
 # Example: specify Docker image for analysis
---image gcr.io/adb-allofus-tools/ldsc:latest
+--image gcr.io/<projectID>/ldsc:latest
 ```
