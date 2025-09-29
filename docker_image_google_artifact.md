@@ -34,8 +34,8 @@ docker tag zijingliu/ldsc gcr.io/adb-allofus-tools/ldsc:latest
 docker push gcr.io/<projectID>/ldsc:latest
 ```
 
-** Docker Hub link: https://hub.docker.com/r/zijingliu/ldsc
-** Research AllOfUs support: Using Docker Images on the Workbench
+-  Docker Hub link: https://hub.docker.com/r/zijingliu/ldsc
+-  Research AllOfUs support: Using Docker Images on the Workbench
 
 # 4. Make the Image Public
 
@@ -44,8 +44,8 @@ docker push gcr.io/<projectID>/ldsc:latest
 3. Open the Info Panel (right corner).
 4. Go to Permissions → Add Principal.
 5. Add a new principal:
-   ** Type: allUsers
-   ** Role: Basic → Viewer
+   -  Type: allUsers
+   -  Role: Basic → Viewer
 6. Save the changes. The Docker image is now publicly accessible.
 
 # 5. Use Docker Image in Analysis
