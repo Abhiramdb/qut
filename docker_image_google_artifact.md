@@ -33,6 +33,10 @@ docker tag zijingliu/ldsc gcr.io/adb-allofus-tools/ldsc:latest
 # Push the Docker image to Artifact Registry
 docker push gcr.io/<projectID>/ldsc:latest
 ```
+
+** Docker Hub link: https://hub.docker.com/r/zijingliu/ldsc
+** Research AllOfUs support: Using Docker Images on the Workbench
+
 # 4. Make the Image Public
 
 1. Go to the Artifact Registry folder for your project: E.g.: https://console.cloud.google.com/artifacts?project=<projectID>
