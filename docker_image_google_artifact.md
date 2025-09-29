@@ -35,7 +35,7 @@ docker push gcr.io/<projectID>/ldsc:latest
 ```
 
 -  Docker Hub link: https://hub.docker.com/r/zijingliu/ldsc
--  Research AllOfUs support: [Using Docker Images on the Workbench] (https://support.researchallofus.org/hc/en-us/articles/21179878475028-Using-Docker-Images-on-the-Workbench)
+-  Research AllOfUs support: [Using Docker Images on the Workbench](https://support.researchallofus.org/hc/en-us/articles/21179878475028-Using-Docker-Images-on-the-Workbench)
 
 # 4. Make the Image Public
 
