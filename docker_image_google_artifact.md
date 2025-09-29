@@ -28,7 +28,7 @@ This guide explains how to pull a Docker image from Docker Hub, push it to Googl
 docker pull zijingliu/ldsc
 
 # Tag the Docker image for your Google Cloud project
-docker tag zijingliu/ldsc gcr.io/adb-allofus-tools/ldsc:latest
+docker tag zijingliu/ldsc gcr.io/<projectID>/ldsc:latest
 
 # Push the Docker image to Artifact Registry
 docker push gcr.io/<projectID>/ldsc:latest
