@@ -1,4 +1,4 @@
-# Setting up in All of Us -- Research Wrokbench
+# Setting up in All of Us -- Research Workbench
 # Using Docker Images on Google Cloud Artifact Registry
 
 This guide explains how to pull a Docker image from Docker Hub, push it to Google Cloud Artifact Registry, and make it publicly available for analysis.
