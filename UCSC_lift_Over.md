@@ -7,7 +7,7 @@ CHR SNP A1 A2 MAF
 ```
 Required LiftOver format:
 ```
-chr1 10000 10000 chr1:10000:T:C
+chr1 10000 10000
 ```
 We can use `awk` to reformat the SNP list:
 
