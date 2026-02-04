@@ -38,3 +38,19 @@ qstat -t <job_id>[].aqua
 ```bash
 qjobs -x <job_id>[].aqua
 ```
+
+## To see the file
+```bash
+head <filename>
+cat <filename>
+less -S <filename>
+```
+
+## To see the resources which have been utilized in the master node
+```bash
+htop
+# Use `q` to quit
+```
+
+## To see the resources which have been utilized in submitted job
+Use [Grafana](https://hpc-monitoring.eres.qut.edu.au/login)
